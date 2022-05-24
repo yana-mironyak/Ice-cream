@@ -2,4 +2,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 var define;
 var s;!function(n){"use strict";function a(s){return new RegExp("(^|\\s+)"+s+"(\\s+|$)")}var e,t,c;function o(s,n){(e(s,n)?c:t)(s,n)}"classList"in document.documentElement?(e=function(s,n){return s.classList.contains(n)},t=function(s,n){s.classList.add(n)},c=function(s,n){s.classList.remove(n)}):(e=function(s,n){return a(n).test(s.className)},t=function(s,n){e(s,n)||(s.className=s.className+" "+n)},c=function(s,n){s.className=s.className.replace(a(n)," ")});var i={hasClass:e,addClass:t,removeClass:c,toggleClass:o,has:e,add:t,remove:c,toggle:o};"function"==typeof s&&s.amd?s(i):n.classie=i}(window);
 },{}]},{},["KAZd"], null)
-//# sourceMappingURL=/Ice-cream/classie.56655576.js.map
+//# sourceMappingURL=/ice-cream/classie.56655576.js.map
